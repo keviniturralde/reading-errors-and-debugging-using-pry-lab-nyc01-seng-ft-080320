@@ -3,7 +3,7 @@ require 'pry'
 def start_game(player1 = "Rocky", player2 = "Bullwinkle")
   puts "Hello #{player1} & #{player2}"
 end
-start_game
+puts start_game
 def play_game(player2)
   "#{player1} is better than #{player2}"
 end
