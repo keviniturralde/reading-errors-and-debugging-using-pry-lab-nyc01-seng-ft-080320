@@ -1,7 +1,7 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def get_user_input
-  num= 2
+  gets.chomp
 end
 
 def prompt_user
