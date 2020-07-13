@@ -20,5 +20,5 @@ end
 
 def runner
   prompt_user
-  selection(num)
+  selection(gets.chomp)
 end
